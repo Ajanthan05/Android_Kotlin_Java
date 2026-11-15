@@ -1,59 +1,89 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
-
-
 # Gradle
 .gradle/
-build/
 **/build/
 
 # Android Studio
 .idea/
 *.iml
-*.ipr
-*.iws
 
-# Local configuration
+# Local SDK configuration
 local.properties
 
-# Android build outputs
+# Native build
+.cxx/
+.externalNativeBuild/
+
+# Generated files
 *.apk
 *.aab
-*.ap_
 *.dex
 
-# Kotlin
-*.class
-
-# Native build outputs
-.externalNativeBuild/
-.cxx/
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Keystore and signing credentials
+# Signing credentials
 *.jks
 *.keystore
 
-# Temporary files
-*.tmp
-*.swp
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
+# *.iml
+# .gradle
+# /local.properties
+# /.idea/caches
+# /.idea/libraries
+# /.idea/modules.xml
+# /.idea/workspace.xml
+# /.idea/navEditor.xml
+# /.idea/assetWizardSettings.xml
+# .DS_Store
+# /build
+# /captures
+# .externalNativeBuild
+# .cxx
+# local.properties
+
+
+# # Gradle
+# .gradle/
+# build/
+# **/build/
+
+# # Android Studio
+# .idea/
+# *.iml
+# *.ipr
+# *.iws
+
+# # Local configuration
+# local.properties
+
+# # Android build outputs
+# *.apk
+# *.aab
+# *.ap_
+# *.dex
+
+# # Kotlin
+# *.class
+
+# # Native build outputs
+# .externalNativeBuild/
+# .cxx/
+
+# # Logs
+# *.log
+
+# # OS generated files
+# .DS_Store
+# Thumbs.db
+
+# # Keystore and signing credentials
+# *.jks
+# *.keystore
+
+# # Temporary files
+# *.tmp
+# *.swp
 
